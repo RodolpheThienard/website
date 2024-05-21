@@ -1,0 +1,118 @@
+input, label {
+    all: unset;
+    display: inline;
+}
+
+input {
+    caret-color: cyan;
+}
+
+label {
+    text-align: left;
+    white-space: normal;
+}
+
+* {
+  font-family: 'JetBrains Mono', monospace; 
+  color-scheme: dark;
+  cursor: text;
+}
+
+body {
+    background-color: #282828;
+    overflow-x: hidden;
+}
+
+*::selection {
+    background-color: #ebdbb2;
+    text-shadow: .1em .1em .5em #000;
+}
+
+pre *, pre {
+    text-shadow: .1em .1em .5em #3d3d3d;
+}
+
+pre:not(.prompt) {
+    overflow-wrap: break-word;
+    white-space: pre-line;
+}
+welcomemsg *, welcomemsg {
+    text-shadow: .1em .1em .5em #3d3d3d;
+}
+
+welcomemsg:not(.prompt) {
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+a {
+    color: inherit !important;
+}
+
+a:hover {
+    background-color: white;
+    color: black !important;
+    cursor: default;
+}
+
+p {
+    margin: 0;
+    text-align: right;
+}
+
+.prompt {
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 27ch 1fr 1fr;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 756px) {
+    .mobile {
+        display: block;
+    }
+    .nomobile {
+        display: none;
+    }
+}
+
+:root{
+--black:   #928374;
+--red:     #fb4934;
+--green:   #b8bb26;
+--yellow:  #fabd2f;
+--blue:    #83a598;
+--magenta: #d3869b;
+--cyan:    #8ec07c;
+--white:   #ebdbb2;
+}
+
+
+.white{
+    color: var(--white);
+}
+.grey{
+    color: grey;
+}
+.red{
+    color: var(--red);
+}
+.green{
+    color: var(--green);
+}
+.blue{
+    color: var(--blue);
+}
+.yellow{
+    color: var(--yellow);
+}
+.cyan{
+    color: var(--cyan);
+}
+.magenta{
+    color: var(--magenta);
+}
