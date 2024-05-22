@@ -7,7 +7,7 @@ export default async function (output, _hist, ...args) {
     let repositories;
     try {
       repositories = await fetch(
-        "https://api.github.com/users/rodolphethienard/repos?type=owner&sort=created"
+        "https://api.github.com/users/rodolphethienard/repos?type=owner&sort=updated"
       ).then((r) => r.json());
     } catch (e) {
       output.innerHTML += '<span data-color="red">' + e + "</span>";
@@ -26,7 +26,7 @@ export default async function (output, _hist, ...args) {
     }));
 
     repositoriesInfo.sort(
-      (a, b) => new Date(b.created_at) - new Date(a.created_at)
+      (a, b) => new Date(b.updated_at) - new Date(a.updated_at)
     );
 
     output.innerHTML += '\n';
