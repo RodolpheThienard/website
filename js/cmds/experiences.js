@@ -6,7 +6,7 @@ export default function(output) {
     <br>- Intership at EMG2</br>
     <span data-color="white">  Technological validation of hardware integration of a POSIT GPGPU core on FPGA for HPC/HPDA and Deep learning applications</span> <span data-color="grey">|</span> <span data-color="white">2024</span>
     
-    <br>- Intership at the French Atomic Energy and Alternative Energies Commission (CEA)</br>
+    <br>- Internship at the French Atomic Energy and Alternative Energies Commission (CEA)</br>
     <span data-color="white">  Designing a user-space thread scheduler for MPC</span> <span data-color="grey">|</span> <span data-color="white">2023</span>
     
     <br>- Programming project, Paris Saclay</br>
