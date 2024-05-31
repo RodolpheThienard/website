@@ -9,7 +9,7 @@ Here Is A List Of Commands:
     <span data-color="yellow">projects</span> <span data-color="grey" style="text-align=right">-</span> <span data-color="white">My Github Repos!</span>
     <span data-color="yellow">languages</span> <span data-color="grey" style="text-align=right">-</span> <span data-color="white">My programming languages</span>
     <span data-color="yellow">socials</span> <span data-color="grey" style="text-align=right">-</span> <span data-color="white">Contact Me Here!</span>
-    <span data-color="yellow">gui</span> <span data-color="grey" style="text-align=right">-</span> <span data-color="white">my resume in PDF format</span>
+    <span data-color="yellow">resume</span> <span data-color="grey" style="text-align=right">-</span> <span data-color="white">My resume in PDF format</span>
     </div>
     <span data-color="grey">--------------------------------------------</span>
 Extra Commands For Fun:
